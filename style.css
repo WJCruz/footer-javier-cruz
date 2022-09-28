@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+footer {
+    display: grid;
+    background-color: #121e32;
+    color: #8fabc3;
+    grid-template-rows: 4fr 1fr;
+}
+.footer-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 3rem 4.5rem;
+    margin-bottom: 3rem;
+}
+.footer-2 {
+    display: grid;
+    justify-items: center;
+    font-size: 1.3rem;
+    opacity: .6;
+}
+li {
+    list-style: none;
+}
+.container-element {
+    padding: 0 1.5rem;
+}
+.container-element h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+.container-element li a {
+    color: #8fabc3;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.container-element li a:hover {
+    color: white;
+}
+.img {
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem;
+    gap: .5rem;
+}
+.img .img-element {
+    display: grid;
+    border-radius: 3rem;
+    background-color: #8fabc3;
+    place-items: center;
+}
+.img .img-element img {
+    width: 2rem;
+    height: 2rem;  
+}
